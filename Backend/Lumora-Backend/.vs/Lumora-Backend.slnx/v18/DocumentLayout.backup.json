@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\lumora-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\lumora-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Lumora-Backend\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\LoginController.cs*",
+              "RelativeToolTip": "Lumora-Backend\\Controllers\\LoginController.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:25:24.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Login.cs",
+              "RelativeDocumentMoniker": "Lumora-Backend\\Login.cs",
+              "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Login.cs",
+              "RelativeToolTip": "Lumora-Backend\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:17:28.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Lumora-Backend\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Lumora-Backend\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T07:37:58.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Test.cs",
+              "RelativeDocumentMoniker": "Lumora-Backend\\Test.cs",
+              "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Test.cs",
+              "RelativeToolTip": "Lumora-Backend\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T20:52:45.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Lumora-Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Program.cs",
+              "RelativeToolTip": "Lumora-Backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T16:18:44.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lumora-Backend.http",
+              "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Lumora-Backend.http",
+              "RelativeDocumentMoniker": "Lumora-Backend\\Lumora-Backend.http",
+              "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Lumora-Backend.http",
+              "RelativeToolTip": "Lumora-Backend\\Lumora-Backend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-14T16:18:54.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Lumora-Backend\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Lumora-Backend\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T17:06:52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Lumora-Backend\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\WeatherForecast.cs",
+              "RelativeToolTip": "Lumora-Backend\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T07:37:54.137Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
