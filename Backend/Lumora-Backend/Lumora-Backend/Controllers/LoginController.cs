@@ -1,34 +1,49 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Lumora_Backend.Infrastructure;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Lumora_Backend.Controllers
 {
+
+
+
     [ApiController]
-    [Route("api/login")]
-    public class LoginController : ControllerBase
+    [Route("api/[controller]")]
+    public class AuthController : ControllerBase
     {
-        string username = "admin";
-        string password = "admin";
-        [HttpPost("process")]
-        public IActionResult ProcessData([FromBody] Request request)
+        private readonly TokenService _tokenService;
+
+        public AuthController(TokenService tokenService)
         {
-            if(request.username == username && request.password == password)
+            _tokenService = tokenService;
+        }
+
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginRequest request)
+        {
+
+            Console.WriteLine($"Username: '{request.Username}'");
+            Console.WriteLine($"Password: '{request.Password}'");
+
+            // Validate credentials (check against database)
+            if (IsValidUser(request.Username, request.Password))
             {
-                var response = new Response
-                {
-                    loggedIn = true,
-                    userId = 12345
-                };
-                return Ok(response);
+                var token = _tokenService.GenerateToken(
+                    request.Username,
+                    "user-id-123");
+
+                return Ok(new { token });
             }
-            else
-            {
-                var response = new Response
-                {
-                    loggedIn = false,
-                    userId = -1
-                };
-                return Ok(response);
-            }
+
+            return Unauthorized();
+        }
+
+        private bool IsValidUser(string username, string password)
+        {
+            // TODO: Implement actual validation against your database
+            return username == "admin" && password == "admin";
         }
     }
+
+    public record LoginRequest(string Username, string Password);
+
 }

@@ -4,29 +4,32 @@ import { useNavigate } from "react-router-dom";
 import { useGlobal } from "./GlobalContext";
 
 function Login() {
-  const {userId, setUserId, isLoggedIn, setIsLoggedIn} = useGlobal();
   const navigate = useNavigate();
   const [data, setData] = useState(null);
   const [usernameVal, setUsernameVal ] = useState("");
   const [passwordVal, setPasswordVal ] = useState("");
 
+  let ok = true;
+
   async function sendData(un, pw) {
-    const response = await fetch("https://localhost:7225/api/login/process", {
+    const response = await fetch("https://localhost:7225/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        username: un,
-        password: pw
+        Username: un,
+        Password: pw
       })
     });
 
     if (!response.ok) {
-      throw new Error("Request failed");
+      ok = false;
+      throw new Error("Login failed!");
     }
     const result = await response.json();
-    console.log(result);
+    console.log("Token stored: ",result.token);
+    localStorage.setItem("token", result.token);
     setData(result);
     return result
   }
@@ -34,11 +37,9 @@ function Login() {
     const handleClick = async (e) => {
       e.preventDefault();
       const result = await sendData(usernameVal, passwordVal)
-      if(result.userId != -1){
+      if(ok){
         navigate('/dashboard')
       }
-      setUserId(result.userId)
-      setIsLoggedIn(result.loggedIn)
     }
 
     const handleUsernameChange = (e) => {
