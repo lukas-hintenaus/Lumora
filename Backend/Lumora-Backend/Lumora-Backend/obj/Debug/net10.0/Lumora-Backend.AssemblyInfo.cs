@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lumora-Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82df2fced9341133c0a57a801552c4bd381d2b73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f552de508cf593b68ccf42ebb0700f2cc0532f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lumora-Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lumora-Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

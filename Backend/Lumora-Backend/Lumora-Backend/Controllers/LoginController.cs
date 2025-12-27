@@ -3,9 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Lumora_Backend.Controllers
 {
-
-
-
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase

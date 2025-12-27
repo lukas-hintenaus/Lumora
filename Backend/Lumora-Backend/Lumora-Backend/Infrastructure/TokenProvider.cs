@@ -33,7 +33,7 @@ namespace Lumora_Backend.Infrastructure
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(
+                expires: DateTime.UtcNow.AddMinutes(
                     Convert.ToDouble(_config["Jwt:ExpiryMinutes"])),
                 signingCredentials: creds
             );
