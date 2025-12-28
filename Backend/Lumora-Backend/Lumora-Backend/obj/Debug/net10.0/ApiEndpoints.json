@@ -16,6 +16,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Lumora_Backend.Controllers.RefreshTokenController",
+    "Method": "CheckTokenStatus",
+    "RelativePath": "api/RefreshToken",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Lumora_Backend.Controllers.RefreshTokenController\u002BTokenStatus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Lumora_Backend.Controllers.RefreshTokenController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/RefreshToken/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Lumora_Backend.Controllers.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Lumora_Backend.Controllers.SecureController",
     "Method": "GetSecureData",
     "RelativePath": "api/Secure",

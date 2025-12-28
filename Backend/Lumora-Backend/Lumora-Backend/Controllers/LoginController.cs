@@ -28,7 +28,10 @@ namespace Lumora_Backend.Controllers
                     request.Username,
                     "user-id-123");
 
-                return Ok(new { token });
+                return Ok(new{
+                    accesstoken = token,
+                    refreshToken = sharedData.RefreshToken,
+                });
             }
 
             return Unauthorized();

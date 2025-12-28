@@ -1,7 +1,6 @@
 import "./login.css";
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
-import { useGlobal } from "./GlobalContext";
 
 function Login() {
   const navigate = useNavigate();
@@ -28,8 +27,11 @@ function Login() {
       throw new Error("Login failed!");
     }
     const result = await response.json();
-    console.log("Token stored: ",result.token);
-    localStorage.setItem("token", result.token);
+    console.log(result)
+    console.log("Token stored: ",result.accesstoken);
+    console.log("Refresh Token stored: ", result.refreshToken)
+    localStorage.setItem("accesstoken", result.accesstoken);
+    localStorage.setItem("refreshtoken", result.refreshToken)
     setData(result);
     return result
   }
@@ -38,6 +40,7 @@ function Login() {
       e.preventDefault();
       const result = await sendData(usernameVal, passwordVal)
       if(ok){
+        localStorage.setItem("username", usernameVal)
         navigate('/dashboard')
       }
     }

@@ -1,14 +1,13 @@
-import { useGlobal } from "./GlobalContext";
+import GetNewAccessToken from "./security/GetNewToken";
 
 export default function Dashboard(){
-    const {userId, setUserId, isLoggedIn, setIsLoggedIn} = useGlobal();
 
   const getPublicData = async () => {
-    const token = localStorage.getItem("token");
+    const accessToken = localStorage.getItem("accesstoken");
     const response = await fetch('https://localhost:7225/api/secure', {
     method: 'GET',
     headers: {
-        'Authorization': `Bearer ${token}`,
+        'Authorization': `Bearer ${accessToken}`,
         'Content-Type': 'application/json' 
     }
   });
@@ -20,11 +19,19 @@ export default function Dashboard(){
   const data = await response.json();
   console.log(data); // { message: "This is public data" }
 };
+  try{
+    getPublicData();
+  }
+  catch{
+    GetNewAccessToken();
+  }
+  finally{
+    getPublicData();
+  }
 
-getPublicData();
     return(
         <div>
-            <h1>dashboard </h1>
+            <h1>dashboard</h1>
         </div> 
     );
 }
