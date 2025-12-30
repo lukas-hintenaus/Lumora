@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\infrastructure\\tokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\infrastructure\\tokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\controllers\\refreshtokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\controllers\\refreshtokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|c:\\users\\hinte\\documents\\projects\\lumora\\backend\\lumora-backend\\lumora-backend\\infrastructure\\tokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C037A1-0243-83B0-F8D3-F84D686D2953}|Lumora-Backend\\Lumora-Backend.csproj|solutionrelative:lumora-backend\\infrastructure\\tokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RefreshTokenController.cs",
               "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\RefreshTokenController.cs",
               "RelativeDocumentMoniker": "Lumora-Backend\\Controllers\\RefreshTokenController.cs",
               "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\RefreshTokenController.cs",
               "RelativeToolTip": "Lumora-Backend\\Controllers\\RefreshTokenController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAowGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowHAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T23:44:53.604Z",
               "EditorCaption": ""
@@ -49,20 +49,20 @@
               "RelativeDocumentMoniker": "Lumora-Backend\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Lumora-Backend\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T09:25:24.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TokenProvider.cs",
               "DocumentMoniker": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Infrastructure\\TokenProvider.cs",
               "RelativeDocumentMoniker": "Lumora-Backend\\Infrastructure\\TokenProvider.cs",
               "ToolTip": "C:\\Users\\hinte\\Documents\\Projects\\Lumora\\Backend\\Lumora-Backend\\Lumora-Backend\\Infrastructure\\TokenProvider.cs",
               "RelativeToolTip": "Lumora-Backend\\Infrastructure\\TokenProvider.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-25T14:56:47.076Z",
               "EditorCaption": ""

@@ -30,7 +30,7 @@ namespace Lumora_Backend.Controllers
 
                 return Ok(new{
                     accesstoken = token,
-                    refreshToken = sharedData.RefreshToken,
+                    refreshToken = sharedData.RefreshToken, 
                 });
             }
 
